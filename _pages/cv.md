@@ -11,54 +11,48 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Computer Science, The Pennsylvania State University, 2025 (expected)
+  * Computer Security, Software Security, Operating System Design, Computer Networks, Algorithm Analysis, Hardware Security
+* M.Sc. in Economics, BITS Pilani, 2022
+* B.E. in Computer Science, BITS Pilani, 2022
+
+Skills
+======
+* Languages: .Net C#, C/C++, python, shell scripting, Java, SQL
+* Misc.: Azure PaaS, Unity, Power BI
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Microsoft, Software Engineer (Jul '22 - Aug '23)
+  * Design and build a real-time network fault monitoring solution from scratch for all corp devices
+  * Developed stream analytics engine for telemetry data, SNMP traps collection and processing resulting in \<1 minute ticket generation
+  * Incorporated caching, database querying to speed up and enrich the information in ticket generation
+  * Saves license costs, reduce third-party reliance and false alerts, possible to add customization
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Nutanix: Software Engineer Intern (Jan '22 - Jun '22)
+  * Orchestrated the migration of ~800 regression tests to a test automation framework, enabling dynamic deploment and configuration setup of virtual network resources
+  * Reduced the test-bed set up time from ~2 hours to ~10 minutes, eliminated chance of confiuration errors during manual set up
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Microsoft: Software Engineer Intern (May '21 - Jul '21)
+  * Built a comprehensive gallery of UI components for developers to test, adjust and choose from
+  * Enabled faster and simpler development of UI by gallery features such as parameter adjustment and live rendering, accessibility requirement checking, component code generation
 
-Publications
+Projects & Research
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
+* Program Partitioning
+  * Investigating a new class of vulnerabilities due to compartmentalization of programs - Interface Vulnerabilities
+
+* Thread Synchronization with Path Expressions
+  * Transformed an expression input into a sequence of possible thread execution paths
+  * Hides details of implementation of semaphores, etc., and focuses on designing the synchronization the application requires
+
+* Buffer Overflow Vulnerabilities
+  * Exploited programs to inject code into the address space and disrupt control statements
+  * Changed code flow by manipulating function pointers by overflowing the heap and using libc calls
+  * Bypassed non-executable stack through Return Oriented Programming to gain root shell access
+
+Certifications & Extra-Curriculars
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Introduction to Game Development
+* Neural Networks and Deep Learning
+* Give Campaign Part of of Microsoft’s CSR, involved in donations and volunteering to the needy and nonprofits
