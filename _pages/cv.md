@@ -9,4 +9,4 @@ redirect_from:
 (This page might not be updated frequently)
 {% include base_path %}
 
-You can find my resume [here](https://drive.google.com/file/d/1Ax1jQnUaoNbAAekU4LRYi9IC9OruujDn/view?usp=drive_link)
+You can find my resume [here](https://drive.google.com/drive/folders/1uxIByKra6ltA_cclgwknRdPlHxVKW6TE?usp=sharing)
